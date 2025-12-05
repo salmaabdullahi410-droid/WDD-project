@@ -1,0 +1,289 @@
+/*Rules*/
+/*1. Add your initials - we need to know who made what*/
+/*For example, you have a div you want an id for, use divIN (IN=initials)*/
+/*2. Add comments to say what each bit does/what it's for*/
+/*No need to break down line by line, just an overall idea of what it is for*/
+/*Skip a line between code to make it easier to read*/
+
+/* Nav bar created by OJ */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  /*color: blue;*/
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 15px;
+  text-decoration: none;
+  font-size: 36px;
+  /*color: #818181;*/
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  font-size: 36px;
+  margin-left: 100px;
+}
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+@media{
+.one{ 
+	color: slateblue;
+	text-align: center;
+	margin: auto;
+	padding-top: 2px;
+}
+h3{
+	margin-top: 60px;
+	text-align: center;
+}
+p{
+	margin-left: 10px;
+}
+/* end of nav bar css */
+
+/* how to make a difference page layout */
+
+.MainContent {
+    margin-top: 100px;
+    padding: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MainContent h1 {
+    color: #006994;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #00b4d8;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.action-section {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    align-items: flex-start;
+}
+
+.solutions{
+    flex: 2;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.solutions h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.solutions p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.ImageContent {
+    flex: 1;
+    text-align: center;
+}
+
+.content-image {
+    width: 100%;
+    height: 500px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-content p {
+    margin-top: 10px;
+    font-style: italic;
+    color: black;
+    font-size: 14px;
+}
+h3{
+	margin-top: 60px;
+	text-align:left;
+	
+}
+
+
+/* Across the world page css  */
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    background-color: #e6f7ff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.mainheading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-heading h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* HEADER IMAGE */
+.large-image-container {
+    width: 100%;
+    margin-bottom: 40px;
+}
+#large-imageSH{
+	width:100%;
+	height:500px;
+}
+
+.large-image-container img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* SECTIONS */
+.section {
+    margin-bottom: 40px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    color: #1a5f7a;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6ab7c7;
+    padding-bottom: 10px;
+}
+
+/* PARAGRAPHS */
+.paragraph {
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* PROBLEMS & SOLUTIONS LAYOUT */
+
+.section-left, .section-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section-left {
+    width: 100%;
+    padding-right: 20px;
+}
+
+.section-right {
+    width: 35%;
+}
+
+.section-right img {
+    width: 250%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* BULLET LISTS */
+.bullet-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.bullet-list li {
+    padding: 10px 10px 10px 30px;
+    margin-bottom: 10px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    position: relative;
+}
+
+.bullet-list li:before {
+    content: ".";
+    position: absolute;
+    left: 15px;
+    color: #1a5f7a;
+    font-size: 1.2rem;
+}
+
+
+/* GALLERY */
+
+.galleryImages {
+    margin-top: 20px;
+}
+
+.galleryImages img {
+    width: 100%;  
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: #1a5f7a;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
